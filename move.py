@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-GPIP.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(11, GPIO.OUT)
 servol = GPIO.PWM(11, 50)  # GPIO 11 for PWM with 50Hz frequency
