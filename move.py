@@ -10,10 +10,10 @@ servol.start(0)  # Initialize with 0% duty cycle (0 degrees)
 
 time.sleep(2)  # Wait before stopping the servo
 
-servol.ChangeDutyCycle(12)  
+servol.ChangeDutyCycle(6)  
 time.sleep(2)
 
-servol.ChangeDutyCycle(4)
+servol.ChangeDutyCycle(4.5)
 time.sleep(2)
 
 servol.ChangeDutyCycle(0)  
