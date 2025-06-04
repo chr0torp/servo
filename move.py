@@ -13,7 +13,7 @@ time.sleep(2)  # Wait before stopping the servo
 servol.ChangeDutyCycle(12)  
 time.sleep(2)
 
-servol.ChangeDutyCycle(2)
+servol.ChangeDutyCycle(4)
 time.sleep(2)
 
 servol.ChangeDutyCycle(0)  
